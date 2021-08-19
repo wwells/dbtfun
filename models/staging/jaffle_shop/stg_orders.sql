@@ -11,4 +11,4 @@ with orders as (
 
 )
 
-{{ limit_data_in_dev('order_date', 100) }}
+select * from orders
